@@ -7,6 +7,9 @@
 html, body {
   height: 100%;
   background-color: rgb(249, 242, 235);
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .App {
@@ -47,4 +50,9 @@ html, body {
   /* margin-bottom: 10rem; */
   text-align: center;
   width: 50%;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
 }
