@@ -3,6 +3,8 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
   padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .grid-image-container {
@@ -15,7 +17,7 @@
   height: auto;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out, filter 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .grid-image.loaded {
@@ -23,7 +25,7 @@
 }
 
 .grid-image:hover {
-  filter: blur(5px);
+  transform: scale(1.05);
 }
 
 .image-name {
