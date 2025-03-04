@@ -18,13 +18,15 @@ function App() {
                     flexDirection: 'column',
                     justifyContent: 'center',
                   }}>
-          <h1 className="title">
-            SHAYE RAMSAY
-          </h1>
-          <h2 className="subtitle" style={{ marginBottom: '1rem' }}>
-            PHOTOGRAPHER AND VIDEOGRAPHER
-          </h2>      
-          <h2 className="content" style={{margin: '0 auto' }}>CAPE TOWN, SOUTH AFRICA | 20 - 03 - 2003</h2>
+          <div className="overlay">
+            <h1 className="title" >
+              SHAYE RAMSAY
+            </h1>
+            <h2 className="subtitle" style={{ marginBottom: '1rem'}}>
+              PHOTOGRAPHER AND VIDEOGRAPHER
+            </h2>      
+            <h2 className="content" style={{margin: '0 auto'}}>CAPE TOWN, SOUTH AFRICA | 20 - 03 - 2003</h2>
+          </div>
         </header>
       </FadeInSection>
       
