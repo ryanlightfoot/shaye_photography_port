@@ -29,16 +29,14 @@ function App() {
       </FadeInSection>
       
       <div align="center">
-        {/* <FadeInSection delay={200}>
-        </FadeInSection> */}
         
-        <FadeInSection delay={300}>
+        <FadeInSection delay={50}>
           <h2 className="subtitle" style={{ marginBottom: '1rem', marginTop: '25rem' }}>
             ABOUT ME
           </h2>
         </FadeInSection>
         
-        <FadeInSection delay={400}>
+        <FadeInSection delay={100}>
           <p className="content" style={{ marginBottom: '25rem' }}>
             All photographs in this
             portfolio are shot with 35mm
