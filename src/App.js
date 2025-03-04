@@ -69,16 +69,16 @@ function App() {
       </div>
       
       <div align="center" style={{ paddingBottom: '5rem' }}>
-        <FadeInSection delay={500}>
+        <FadeInSection delay={50}>
           <h1 className="subtitle" style={{ marginBottom: '3rem'}}>CONTACT ME</h1>
         </FadeInSection>
         
         <div style={{alignItems: 'center' }}>
-          <FadeInSection delay={600}>
+          <FadeInSection delay={100}>
             <p className="content" style={{ marginBottom: '2rem' }}>EMAIL: SHAYELRAM@ICLOUD.COM</p>
           </FadeInSection>
           
-          <FadeInSection delay={700}>
+          <FadeInSection delay={100}>
             <p className="content" style={{ marginBottom: '5rem' }}>PHONE: +27 735 549618</p>
           </FadeInSection>
         </div>
