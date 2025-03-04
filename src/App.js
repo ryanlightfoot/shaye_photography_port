@@ -1,8 +1,10 @@
 import './App.css';
 import FadeInSection from './components/fade_in_section/FadeInSection';
+import ImageGrid from './components/image_grid/ImageGrid'; // Import ImageGrid
 import backgroundImage from './assets/images/main_bg.jpeg';
 
 function App() {
+  const imageNames = ['image1', 'image2', 'image3']; // Ensure these images exist in your assets
   return (
     <div className="App">
       <FadeInSection>
@@ -29,7 +31,7 @@ function App() {
           </div>
         </header>
       </FadeInSection>
-      
+      <ImageGrid imageNames={imageNames} />
       <div align="center">
         
         <FadeInSection delay={50}>
