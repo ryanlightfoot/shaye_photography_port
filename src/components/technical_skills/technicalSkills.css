@@ -1,9 +1,13 @@
 .technical-skills-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between columns */
+  align-items: center; /* Center items vertically */
   text-align: center;
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px; /* Limit the width for better readability */
+  max-width: 90%; /* Limit the width for better readability */
   border-radius: 8px; /* Rounded corners */
+  background-color: #f9f2eb; /* Add a subtle background color */
 }
 
 .technical-skills-title {
@@ -13,8 +17,9 @@
   font-weight: 400;
   text-transform: uppercase;
   font-size: 2.118rem;
-  margin-bottom: 1rem;
-  /* margin-top: 25rem; */
+  margin-bottom: 5rem;
+  color: #333; /* Ensure text color is readable */
+  text-align: left;
 }
 
 .technical-skills-content {
@@ -22,9 +27,29 @@
   /* color: white; */
   font-size: 1.618rem;
   font-weight: 300;
-  text-align: center;
-  max-width: 50%;
+  text-align: justify;
+  max-width: 100%;
   margin: 0 auto 5rem;
   position: relative;
   z-index: 1;
+  color: #555; /* Ensure text color is readable */
+}
+
+.technical-skills-text {
+  flex: 1; /* Take up available space */
+  margin-right: 20px; /* Space between text and image */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.technical-skills-image {
+  flex: 1; /* Take up available space */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.technical-skills-image img {
+  max-width: 100%; /* Ensure image doesn't overflow */
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Scale image to fit the container */
 }

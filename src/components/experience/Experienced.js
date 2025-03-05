@@ -12,6 +12,7 @@ const Experience = ({ imageNames }) => {
         </p>
       </FadeInSection>
 
+      <FadeInSection delay={50}>
       <div className="image-gallery">
         {imageNames.map((name, index) => (
           <img
@@ -22,6 +23,7 @@ const Experience = ({ imageNames }) => {
           />
         ))}
       </div>
+      </FadeInSection>
     </div>
   );
 };
