@@ -3,9 +3,11 @@ import FadeInSection from './components/fade_in_section/FadeInSection';
 import ImageGrid from './components/image_grid/ImageGrid'; // Import ImageGrid
 import backgroundImage from './assets/images/main_bg.jpeg';
 import AboutMe from './components/about_me/AboutMe';
+import Experience from './components/experience/Experienced';
 
 function App() {
-  const imageNames = ['image1', 'image2', 'image3']; // Ensure these images exist in your assets
+  const imageList = ['image1', 'image2', 'image3']; // Ensure these images exist in your assets
+  const experienceList = ['IMG_0069', 'IMG_0563', 'IMG_8676']; // Ensure these images exist in your assets
   return (
     <div className="App">
       <FadeInSection>
@@ -33,12 +35,13 @@ function App() {
         </header>
       </FadeInSection>
       <AboutMe />
+      <Experience imageNames={experienceList} />
       <div align="center" style={{ paddingBottom: '5rem' }}>
           <h1 className="subtitle" style={{ marginBottom: '1rem'}}>CONTACT ME</h1>        
         <div style={{alignItems: 'center' }}>
           <p className="content" style={{ marginBottom: '0.2rem' }}>EMAIL: SHAYELRAM@ICLOUD.COM</p>
           <p className="content" style={{ marginBottom: '5rem' }}>PHONE: +27 735 549618</p>
-          <ImageGrid imageNames={imageNames} />
+          <ImageGrid imageNames={imageList} />
         </div>
       </div>
     </div>

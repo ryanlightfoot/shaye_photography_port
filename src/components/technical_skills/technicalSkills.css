@@ -1,0 +1,23 @@
+.technical-skills-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0e0; /* Light background for contrast */
+  margin: 20px auto;
+  max-width: 800px; /* Limit the width for better readability */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.technical-skills-title {
+  font-family: 'Times New Roman', serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.technical-skills-content {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+}
