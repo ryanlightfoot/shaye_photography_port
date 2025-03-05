@@ -30,6 +30,7 @@
   text-align: justify;
   max-width: 100%;
   margin: 0 auto 5rem;
+  margin-right: 20%;
   position: relative;
   z-index: 1;
   color: #555; /* Ensure text color is readable */

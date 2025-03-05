@@ -4,8 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
-  height: 80%;
+  width: 80%;
+  height: 100%;
   margin: 0 auto;
   position: relative;
   background-image: url('../../assets/images/about_me_img.webp');

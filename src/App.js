@@ -57,7 +57,7 @@ function App() {
           <h1 className="subtitle" style={{ marginBottom: '1rem'}}>CONTACT ME</h1>        
         <div style={{alignItems: 'center' }}>
           <p className="content" style={{ marginBottom: '0.2rem' }}>Email: shayeram@icloud.com</p>
-          <p className="content" style={{ marginBottom: '3rem' }}>Phone: +27 735 549618</p>
+          <p className="content" style={{ marginBottom: '1rem' }}>Phone: +27 735 549618</p>
           {/* <ImageGrid imageNames={imageList} /> */}
         </div>
       </div>
