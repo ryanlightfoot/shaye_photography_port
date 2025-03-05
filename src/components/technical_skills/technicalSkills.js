@@ -21,7 +21,7 @@ const TechnicalSkills = () => {
         </p>
       </div>
       <div className="technical-skills-image">
-        <img src={image} alt="Technical Skills" />
+        <img src={image} alt="Technical Skills" loading="lazy" />
       </div>
     </div>
   );

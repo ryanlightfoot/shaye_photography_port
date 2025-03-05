@@ -20,6 +20,7 @@ const Experience = ({ imageNames }) => {
             src={require(`../../assets/images/${name}.webp`)}
             alt={`Experience ${index + 1}`}
             className="gallery-image"
+            loading="lazy"
           />
         ))}
       </div>
