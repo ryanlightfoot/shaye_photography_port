@@ -8,7 +8,7 @@ const Experience = ({ imageNames }) => {
       <FadeInSection delay={50}>
         <h2 className="experience-title">EXPERIENCE</h2>
         <p className="experience-content">
-          PRODUCT SHOOTS, VIDEO ADVERTISING, WATER PHOTOGRAPHY, DIRECTING AND COORDINATION, PROFESSIONAL EDITING, SOUND PRODUCTION.
+          product shoots, video advertising, water photography, directing and coordination, professional editing, sound production.
         </p>
       </FadeInSection>
 
