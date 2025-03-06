@@ -42,3 +42,25 @@
   height: auto;
   object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+  .experience-title {
+    font-size: 1.5rem;
+  }
+
+  .experience-content {
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+
+  .image-gallery {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gallery-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}

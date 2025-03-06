@@ -34,9 +34,11 @@ html, body {
   margin-bottom: 1rem;
 }
 
-.overlay {  mix-blend-mode: overlay;
-  background-color: rgb(249, 242, 235, 0.4);
-  padding: 1rem 1rem;}
+.overlay {
+  mix-blend-mode: overlay;
+  background-color: rgba(249, 242, 235, 0.4);
+  padding: 1rem 1rem;
+}
 
 .overlay h1, .overlay h2 {
   margin: 0; /* Reset margin */
@@ -52,12 +54,39 @@ html, body {
 
 .content {
   font-family: 'Times New Roman';
-  /* font-size: 1rem; */
   font-size: 1.618rem;
   font-weight: 300;
   color: #555;
-  /* margin-bottom: 10rem; */
   text-align: center;
   width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .name-container {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+  }
+
+  .overlay {
+    padding: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    width: 90%;
+    font-size: 1.2rem;
+  }
 }
 

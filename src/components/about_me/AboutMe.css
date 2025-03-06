@@ -37,4 +37,23 @@
   margin: 0 auto 25rem;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .about-me-container {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .subtitleAbout {
+    font-size: 1.5rem;
+    margin-top: 10rem;
+  }
+
+  .contentAbout {
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin-bottom: 10rem;
+  }
 } 

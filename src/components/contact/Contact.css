@@ -21,13 +21,13 @@
 }
 
 .titleright {
-    font-family: 'Times New Roman';
-    letter-spacing: 0.5em;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 5rem;
-    text-align: right;
-    margin-right: 10%;
+  font-family: 'Times New Roman';
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: right;
+  margin-right: 10%;
 }
 
 .contact-title {
@@ -59,7 +59,6 @@
 
 .column-left, .column-right {
   flex: 1;
-  /* padding: 1rem; */
   padding-left: 5%;
 }
 
@@ -119,4 +118,30 @@
 
 .tooltip-visible {
   opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-left {
+    display: none; /* Hide the "GET IN TOUCH" section */
+  }
+
+  .column-right {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .contact-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .contact-content {
+    text-align: center;
+    margin-left: 0;
+  }
 }
