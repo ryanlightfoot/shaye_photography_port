@@ -64,7 +64,7 @@ function Contact() {
           </h2>
         </div>
       </div>
-      <p>Developed by Lightdevelopments</p>
+      <p style={{ padding: '1rem' }}>Developed by Lightdevelopments</p>
     </div>
   );
 }
