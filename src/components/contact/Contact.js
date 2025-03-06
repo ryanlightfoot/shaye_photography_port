@@ -30,6 +30,7 @@ function Contact() {
         <div className="column-right">
           <h1 className="contact-title">Socials</h1>
           <h2 className="contact-content"><a href="https://www.instagram.com/shayeramsay/">instagram</a></h2>
+          <h2 className="contact-content"><a href="https://www.linkedin.com/in/shaye-ramsay-ba8988352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a></h2>
           <h2 className="contact-content">
             <span onClick={copyTextToClipboard} className="email-link">
               shayelram@icloud.com
@@ -64,7 +65,7 @@ function Contact() {
           </h2>
         </div>
       </div>
-      <p style={{ padding: '1rem' }}>Developed by Lightdevelopments</p>
+      <p style={{ padding: '1rem', opacity: '0.8' }}>Developed by Lightdevelopments</p>
     </div>
   );
 }
