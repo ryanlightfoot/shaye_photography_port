@@ -7,6 +7,7 @@ import AboutMe from './components/about_me/AboutMe';
 import Experience from './components/experience/Experienced';
 import Loading from './components/loading/Loading';
 import TechnicalSkills from './components/technical_skills/technicalSkills';
+import Contact from './components/contact/Contact';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -52,15 +53,10 @@ function App() {
       </FadeInSection>
       <AboutMe />
       <Experience imageNames={experienceList} />
+      <FadeInSection delay={50}>
       <TechnicalSkills />
-      <div align="center" style={{ paddingBottom: '5rem', marginTop: '15rem' }}>
-          <h1 className="subtitle" style={{ marginBottom: '1rem'}}>CONTACT ME</h1>        
-        <div style={{alignItems: 'center' }}>
-          <p className="content" style={{ marginBottom: '0.2rem' }}>Email: shayeram@icloud.com</p>
-          <p className="content" style={{ marginBottom: '1rem' }}>Phone: +27 735 549618</p>
-          {/* <ImageGrid imageNames={imageList} /> */}
-        </div>
-      </div>
+      </FadeInSection>
+      <Contact />
     </div>
   );
 }

@@ -1,0 +1,122 @@
+.contact-container {
+  text-align: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 242, 235);
+  margin-bottom: -10rem;
+  margin-top: -10rem;
+}
+
+.name-container {
+  font-size: 1.5rem;
+}
+
+.titleleft {
+  font-family: 'Times New Roman';
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3.427rem;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.titleright {
+    font-family: 'Times New Roman';
+    letter-spacing: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3.427rem;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.contact-title {
+  font-family: 'Times New Roman';
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.contact-content {
+  font-family: 'Times New Roman';
+  font-size: 1.618rem;
+  font-weight: 300;
+  color: #555;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.column-left, .column-right {
+  flex: 1;
+  /* padding: 1rem; */
+  padding-left: 5%;
+}
+
+.titleleft {
+  font-family: 'Times New Roman';
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3.427rem;
+  text-align: left;
+}
+
+.titleright {
+  font-family: 'Times New Roman';
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3.427rem;
+}
+
+.contact-content a {
+  font-family: 'Times New Roman';
+  font-size: 1.618rem;
+  font-weight: 300;
+  color: #555;
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+}
+
+.email-link {
+  cursor: pointer;
+  color: #555;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.tooltip-contact {
+  position: fixed;
+  font-family: 'Times New Roman';
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-visible {
+  opacity: 1;
+}
