@@ -104,8 +104,8 @@
 
 .tooltip-contact {
   position: fixed;
-  font-family: 'Times New Roman';
-  bottom: 20px;
+  font-family: 'Arial';
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 0.9rem;
@@ -114,6 +114,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
 .tooltip-visible {
